@@ -1,7 +1,3 @@
-Aqui está o README.md para o projeto de "Análise de Dados de Vendas com Python" com base nas informações fornecidas:
-
----
-
 # Análise de Dados de Vendas com Python
 
 ## Descrição do Projeto
