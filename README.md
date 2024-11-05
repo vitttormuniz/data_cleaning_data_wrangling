@@ -2,50 +2,34 @@
 
 ## Descrição do Projeto
 
-Este projeto realiza uma análise completa de dados de vendas, abrangendo desde o tratamento e limpeza dos dados até a visualização de insights em gráficos. Usando Python e bibliotecas de análise de dados, buscamos identificar padrões e métricas importantes para entender o desempenho das vendas sob diferentes critérios. O projeto oferece uma visão detalhada dos dados e facilita a tomada de decisão com base em insights visuais.
-## Principais Tarefas
+Este projeto realiza uma análise completa de dados de vendas, abrangendo desde o tratamento e limpeza dos dados até a visualização de insights em gráficos. Utilizando Python e bibliotecas de análise de dados, o objetivo é analisar um conjunto de dados de vendas e aplicar transformações para gerar insights acionáveis sobre o desempenho das vendas de acordo com diferentes critérios.
 
-- **Limpeza e Transformação de Dados**: Remoção de valores nulos, duplicatas, valores negativos e outliers para garantir consistência e precisão.
-- **Criação de Colunas**: Cálculo do preço total por transação e outras colunas relevantes para análise.
-- **Análise Descritiva**: Geração de estatísticas descritivas dos dados para uma visão inicial das variáveis.
-- **Visualização de Insights**: Criação de gráficos interativos com Plotly para apresentar os principais insights
+### Visão Geral
+
+1. **Limpeza e Transformação de Dados**: Remoção de valores nulos, duplicatas, valores negativos e outliers para garantir a consistência e precisão dos dados.
+2. **Criação de Colunas**: Cálculo do preço total por transação, gerando colunas adicionais para aprimorar a análise.
+3. **Análise Descritiva**: Geração de estatísticas descritivas dos dados para uma visão inicial das variáveis, incluindo medidas de centralidade e dispersão.
+4. **Visualização de Insights**: Criação de gráficos interativos com Plotly para destacar os principais insights
 
 ## Tecnologias Utilizadas
 
 - **Python**: Linguagem de programação principal.
 - **Pandas**: Manipulação e transformação de dados.
-- **NumPy**: Operações numéricas e manipulação de arrays.
+- **NumPy**: Computação numérica para manipulação de arrays e operações matemáticas.
 - **Seaborn e Matplotlib**: Visualização de dados estática.
-- **Plotly**: Visualização de dados interativa.
-
-## Análises Realizadas
-
-### 1. Limpeza de Dados
-   - **Remoção de Duplicatas**: Garantia de que cada transação é única.
-   - **Tratamento de Valores Nulos**: Substituição ou remoção de valores ausentes.
-   - **Valores Negativos e Outliers**: Filtragem para assegurar dados consistentes e adequados para análise.
-
-### 2. Transformações
-   - **Conversão de Colunas**: Ajuste dos tipos de dados, como datas e valores monetários, para análise.
-   - **Cálculo de Coluna TotalPrice**: Cálculo do valor total por transação, multiplicando quantidade pelo preço.
-
-### 3. Análise Descritiva
-   - **Estatísticas Descritivas**: Cálculo de média, mediana, desvio-padrão e outros valores para entender a distribuição dos dados.
-
-### 4. Visualização e Insights
-   - **Análise por País**: Identificação dos 10 principais países em termos de valor de vendas.
-   - **Análise por Produto**: Identificação dos 10 produtos mais vendidos, com base em quantidade e valor total.
-   - **Análise Mensal**: Visualização das vendas totais por mês para observar padrões sazonais ou de tendência.
+- **Plotly**: Visualização de dados interativa para insights dinâmicos.
 
 ## Resultados Esperados
 
-Este projeto fornece insights importantes sobre o desempenho das vendas:
+Este projeto gera insights essenciais para uma compreensão aprofundada do desempenho de vendas e apoio estratégico nas decisões de negócio:
 
-- **Identificação de Padrões Geográficos**: Visualização dos países com maiores valores de venda.
-- **Produtos Mais Vendidos**: Facilita o entendimento dos produtos de maior sucesso.
-- **Tendências Mensais**: Observação dos períodos de pico nas vendas e sazonalidade.
+- **Dados Consistentes e Precisos**: Após a remoção de duplicatas, valores nulos, negativos e outliers, todos os dados são mantidos consistentes e adequados para análise.
+- **Conversões e Transformações para Facilitar a Análise**: Colunas de dados são transformadas para tipos adequados e calculadas, como a criação da coluna `TotalPrice`, que representa o valor total por transação e ajuda a capturar melhor o impacto de cada venda.
+- **Resumo Estatístico dos Dados**: Cálculo de estatísticas descritivas (média, mediana, desvio padrão) oferece uma visão detalhada da distribuição das variáveis, essencial para detectar padrões de compra e comportamento dos consumidores.
+- **Análise Geográfica e por Produto**: Identificação dos 10 principais países em termos de valor de vendas e dos 10 produtos mais vendidos. Essa análise possibilita alocação mais estratégica de recursos de marketing e estoque.
+- **Visualização de Tendências Mensais**: Gráficos das vendas totais ao longo dos meses revelam padrões sazonais ou tendências de crescimento, facilitando o planejamento e a previsão para períodos futuros.
 
-Esses resultados podem ser usados para tomar decisões estratégicas em relação a estoque, marketing e definição de metas.
+Esses resultados contribuem para decisões mais estratégicas, otimizando o planejamento de estoque, promoções e ações de marketing de acordo com as descobertas dos dados.
 
 ## Contato
 
