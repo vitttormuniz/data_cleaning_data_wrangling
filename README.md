@@ -3,20 +3,12 @@
 ## Descrição do Projeto
 
 Este projeto realiza uma análise completa de dados de vendas, abrangendo desde o tratamento e limpeza dos dados até a visualização de insights em gráficos. Usando Python e bibliotecas de análise de dados, buscamos identificar padrões e métricas importantes para entender o desempenho das vendas sob diferentes critérios. O projeto oferece uma visão detalhada dos dados e facilita a tomada de decisão com base em insights visuais.
-
-## Visão Geral do Projeto
-
-O objetivo principal é analisar um conjunto de dados de vendas e realizar uma série de transformações, limpezas e cálculos para gerar insights acionáveis. A análise inclui a remoção de outliers e duplicatas, criação de colunas adicionais, e visualizações que destacam tendências de vendas em diferentes dimensões.
-
 ## Principais Tarefas
 
 - **Limpeza e Transformação de Dados**: Remoção de valores nulos, duplicatas, valores negativos e outliers para garantir consistência e precisão.
 - **Criação de Colunas**: Cálculo do preço total por transação e outras colunas relevantes para análise.
 - **Análise Descritiva**: Geração de estatísticas descritivas dos dados para uma visão inicial das variáveis.
-- **Visualização de Insights**: Criação de gráficos interativos com Plotly para apresentar os principais insights, como:
-  - Top 10 países com maior valor de vendas.
-  - Top 10 produtos mais vendidos.
-  - Valor total de vendas ao longo dos meses.
+- **Visualização de Insights**: Criação de gráficos interativos com Plotly para apresentar os principais insights
 
 ## Tecnologias Utilizadas
 
